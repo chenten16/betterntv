@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         bntv
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @match        https://www.nimo.tv/*
-// @grant        none
-// @run-at document-end
-// ==/UserScript==
-
 (function () {
     'use strict';
     //data for emotes
