@@ -1,4 +1,4 @@
-(function () {
+(async () =>{
     'use strict';
     const getEmotes= async () => {
         const data = await fetch(
