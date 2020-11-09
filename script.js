@@ -1,15 +1,10 @@
-(async () =>{
+(function () {
     'use strict';
-    const getEmotes= async () => {
-        const data = await fetch(
-          "https://gist.githubusercontent.com/chenten16/ddb04a5b8fa0f80a70aa8157b6c9b95b/raw/d845768542bfd653f51871dd5950fe002abcb877/gistfile1.json"
-        );
-        const json = await data.json();
-        return json;
-      };
-          //data for emotes
-    let emotes = await getEmotes() 
-    console.log(emotes)
+    //data for emotes
+    let emotes = [{ word: 'Pog', url: 'https://cdn.betterttv.net/frankerfacez_emote/372434/1' }
+        , { word: 'KEKW', url: "https://cdn.betterttv.net/emote/5e9c6c187e090362f8b0b9e8/1x" }
+        , { word: 'devJAM', url: "https://cdn.betterttv.net/emote/5f444fde8abf185d76c79ed2/1x" }, { word: 'pepeJAM', url: "https://cdn.betterttv.net/emote/5b77ac3af7bddc567b1d5fb2/1x" }, { word: 'OMEGALUL', url: "https://cdn.betterttv.net/emote/583089f4737a8e61abb0186b/1x" }, { word: 'shakeJAM', url: "https://cdn.betterttv.net/emote/5f4bd51468d9d86c020d6f61/1x" }]
+
     waitForKeyElements('.nimo-scrollbar', () => {
         //getting container of messages
         const targetNode = document.querySelector(".nimo-scrollbar")
