@@ -9,7 +9,7 @@
       };
           //data for emotes
     let emotes = await getEmotes() 
-
+    console.log(emotes)
     waitForKeyElements('.nimo-scrollbar', () => {
         //getting container of messages
         const targetNode = document.querySelector(".nimo-scrollbar")
